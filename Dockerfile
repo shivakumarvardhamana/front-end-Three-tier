@@ -17,4 +17,4 @@ COPY . .
 RUN npm run build
 
 # Optionally, you can specify a command to run when the container starts
-# CMD ["npm", "start"]
+CMD ["npm", "start"]
